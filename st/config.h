@@ -6,7 +6,10 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "monospace:pixelsize=25:antialias=true:autohint=true";
-static char *font2[] = { "Apple Color Emoji:pixelsize=15:antialias=true:autohint=true" };
+static char *font2[] = { 
+    "MesloLGS NF:style=Regular:pixelsize=25:antialias=true:autohint=true",
+    "Apple Color Emoji:pixelsize=15:antialias=true:autohint=true" 
+};
 static int borderpx = 2;
 
 /*
